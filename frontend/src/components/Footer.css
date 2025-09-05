@@ -1,0 +1,47 @@
+.footer {
+  background: linear-gradient(90deg, var(--navy-blue), var(--muted-teal));
+  color: var(--light-cream);
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: auto;
+  box-shadow: 0 -4px 6px rgba(26, 61, 109, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  width: 100%;
+  margin: 0;
+  padding: 0 5%;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+  
+  .footer-content {
+    padding: 0 1rem;
+  }
+  
+  .footer-content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem 0;
+  }
+  
+  .footer-content p {
+    font-size: 0.8rem;
+  }
+}

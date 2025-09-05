@@ -1,0 +1,101 @@
+/* Mobile-First Responsive Utilities */
+
+/* Touch-friendly interactive elements */
+@media (hover: none) and (pointer: coarse) {
+  .btn,
+  button,
+  .navbar-links a,
+  .pagination-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Remove hover effects on touch devices */
+  .book-card:hover {
+    transform: none;
+  }
+  
+  .btn:hover {
+    transform: none;
+  }
+}
+
+/* Landscape mobile optimization */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .navbar {
+    padding: var(--spacing-xs) var(--spacing-md);
+  }
+  
+  .navbar-center h1 {
+    font-size: var(--font-size-base);
+  }
+  
+  .home {
+    padding: var(--spacing-sm);
+  }
+  
+  .filters-container {
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .book-card {
+    border-width: 3px;
+  }
+  
+  .btn {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .loading-spinner {
+    animation: none;
+    border: 5px solid var(--color-slate-gray);
+  }
+}
+
+/* Focus styles for accessibility */
+.btn:focus,
+.search-input:focus,
+select:focus,
+.pagination-btn:focus,
+.navbar-links a:focus,
+.navbar-logo a:focus {
+  outline: 3px solid var(--color-mustard-yellow);
+  outline-offset: 2px;
+}
+
+/* Print optimizations */
+@media print {
+  .navbar,
+  .filters-container,
+  .pagination,
+  .btn {
+    display: none !important;
+  }
+  
+  .book-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  .book-grid {
+    display: block !important;
+  }
+  
+  .book-card {
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+  }
+}

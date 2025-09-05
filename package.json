@@ -1,0 +1,31 @@
+{
+  "name": "book-explorer",
+  "version": "1.0.0",
+  "description": "A comprehensive full-stack web application for book discovery and management",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../scraper && npm install",
+    "dev-frontend": "cd frontend && npm run dev",
+    "dev-backend": "cd backend && npm start",
+    "scrape-data": "cd scraper && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "fullstack",
+    "academic",
+    "books",
+    "web-application"
+  ],
+  "author": "Academic Project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/book-explorer.git"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
