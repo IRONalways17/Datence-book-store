@@ -240,8 +240,6 @@ This is an academic project. When contributing:
 This project is developed for academic purposes.
 
 ## Contact
-
-For questions or support regarding this academic project, please contact the development team or refer to the course documentation.
 9929586989
 ---
 
