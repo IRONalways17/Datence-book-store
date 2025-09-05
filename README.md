@@ -1,8 +1,9 @@
-# Book Explorer - Academic Project
+# Book Explorer - Datence Project
 
 A comprehensive full-stack web application for book discovery and management, developed for academic purposes. This project demonstrates modern web development practices using React, Node.js, Express, and MongoDB.
 
 ## Project Overview
+<img width="1920" height="3388" alt="full-responsive-final" src="https://github.com/user-attachments/assets/57a75f6d-dafc-4cb0-9231-e819f80bb9bf" />
 
 Book Explorer is a responsive web application that allows users to browse, search, and manage a collection of books. The application features a clean, modern interface with functionality for viewing book details, managing favorites, and maintaining a shopping cart.
 
@@ -236,12 +237,12 @@ This is an academic project. When contributing:
 
 ## License
 
-This project is developed for academic purposes. Please refer to your institution's guidelines regarding code sharing and academic integrity.
+This project is developed for academic purposes.
 
 ## Contact
 
 For questions or support regarding this academic project, please contact the development team or refer to the course documentation.
-
+9929586989
 ---
 
 **Note**: This application is designed for educational purposes and demonstrates web development concepts and best practices. It is not intended for production use without additional security and performance optimizations.
